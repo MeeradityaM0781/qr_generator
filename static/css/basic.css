@@ -1,0 +1,207 @@
+body{
+    background: #e0e0e0;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+h2{
+    margin-top: 7px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+h3{
+    padding-top: 10px;
+    font-size:22px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact{
+    margin: 2px 0;
+    margin-bottom: 0.75%;
+    font-size: 20px;
+}
+
+.heading{
+    background-color: #128275;
+    height: auto;
+    width: 100%;
+    /* display: flex; */
+}
+
+/* .left-div{
+    float: left;
+    padding-left: 1%;
+}
+
+.right-div{
+    float: right;
+    font-size: 22px;
+    padding-top: 2%;
+    margin-left: 55%;
+} */
+
+.about{
+    transition-duration: 0.5s;
+}
+
+.about:hover{
+    cursor: pointer;
+    color: #95dbe5ff;
+}
+
+.home{
+    transition-duration: 0.5s;
+}
+
+.home:hover{
+    cursor: pointer;
+    color: #95dbe5ff;
+}
+
+.footer{
+    text-align: center;
+    background-color: #128275;
+    position: fixed;
+    padding: 10px 10px 20px 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.found{
+    padding: 3px 0;
+    margin: 1px 0;
+    margin-top: 0.3%;
+}
+
+.output{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.output>img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+input[type=text]{
+    width: 40%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-bottom: gray solid 2px;
+    background: #e0e0e0;
+    font-size: 20px
+}
+
+input[type=text]:focus{
+    border-color: black;
+}
+
+label{
+    font-size: 22px;
+}
+
+input[type=submit]{
+    width: 10%;
+    line-height: 150%;
+    border-radius: 20px;
+    border: none;
+    background: gray;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    border: 1px solid black;
+    background: white;
+}
+
+#download{
+    margin-top: 0.7%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+    padding: 0.3% 0;
+    margin: 0.75% auto;
+    width: 20%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#download:hover{
+    border: 1px solid black;
+    background: white;
+}
+
+@media only screen and (max-width: 1010px){
+    span{
+        display: block;
+        font-size: 16px;
+    }
+    input[type=submit]{
+        width: 30%;
+    }
+    #download{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    span{
+        display: block;
+        font-size: 16px;
+    }
+    label{
+        font-size: 16px;
+    }
+    input[type=submit]{
+        width: 40%;
+    }
+    #download{
+        width: 60%;
+    }
+}
+
+.twitter-dm-button{
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ad1{
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.ad2{
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.ad-left{
+    height: 200px;
+    float: left;
+}
+
+.ad-right{
+    height: 200px;
+}
+.comp{
+    width: 80%;
+}
